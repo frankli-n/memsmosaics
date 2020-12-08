@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins, sans-serif;
+  color: #1a0000;
+  scroll-behavior: smooth;
+}
+
+.windowdiv {
+  height: 100vh;
+  background-color: black;
+}
+
+.m-container {
+  width: max-width;
+}
+
+@media (min-width: 891px) {
+.M1-shape {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 150px;
+}
+
+.M1-shape li {
+  list-style: none;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #000;
+  transform: rotate(45deg);
+  transition: 0.5s;
+  margin: -100px;
+  overflow: hidden;
+  opacity: 0.5;
+}
+}
+
+@media (max-width: 890px) {
+.M1-shape {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.M1-shape li {
+  list-style: none;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #000;
+  transform: rotate(45deg);
+  transition: 0.5s;
+  overflow: hidden;
+  opacity: 0.5;
+}
+}
+
+
+
+.diamond-text-position {
+/*	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;*/
+	position: relative;
+	top: 50%;
+	text-align: center;
+	height: -100px;
+	-webkit-transform : rotate(-45deg) scale(1.0);
+	line-height: 0px;
+  background-color: transparent;
+}
+
+.diamond-text-font {
+  font-family: 'Iceland', cursive;
+  font-weight: bold;
+  font-size: 2.9em;
+  color: white;
+}
+
+
+.M1-shape li:hover {
+  opacity: 1;
+}
+
+@media (min-width: 891px) {
+.M1-shape li.item1 {
+  bottom: 0;
+  left: 0;
+}
+
+.M1-shape li.item2 {
+  top: 0;
+  left: 25%;
+}
+
+.M1-shape li.item3 {
+  bottom: 0;
+  left: 50%;
+}
+
+.M1-shape li.item4 {
+  top: 0;
+  left: 75%;
+}
+
+.M1-shape li.item5 {
+  bottom: 0;
+  left: 100%;
+}
+}
+
+@media (max-width: 890px) {
+.M1-shape li.item1 {
+  top: -150px;
+  left: 0px;
+  -webkit-transform : rotate(45deg) scale(0.7);
+}
+
+.M1-shape li.item2 {
+  position: relative;
+  top: 90px;
+  left: 0px;
+  -webkit-transform : rotate(45deg) scale(0.7);
+}
+
+.M1-shape li.item3 {
+  display: none;
+}
+
+.M1-shape li.item4 {
+  display: none;
+}
+
+.M1-shape li.item5 {
+  display: none;
+}
+}
+
+.M1-shape li .diamond-pic {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.1);
+}
+
+.M1-shape li.item1 .diamond-pic {
+  background: url("../../images_diamonds/moth.jpg");
+  background-size: cover;
+  /*background-position: center;*/  
+  position:absolute;
+  bottom:-30px;
+  right:20px;
+  -webkit-transform : rotate(-45deg) scale(1.9);
+}
+
+.M1-shape li.item2 .diamond-pic {
+  background: url("../../images_diamonds/hair.jpg");
+  background-size: cover;
+  background-position: center;  
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  -webkit-transform : rotate(-45deg) scale(1.6);
+}
+
+.M1-shape li.item3 .diamond-pic {
+  background: url("../../images_diamonds/bees.jpg");
+  background-size: cover;
+  /*background-position: center;*/  
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  -webkit-transform : rotate(-45deg) scale(1.5);
+}
+.M1-shape li.item4 .diamond-pic {
+  background: url("../../images_diamonds/plant.jpg");
+  background-size: cover;
+  /*background-position: center;*/  
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  -webkit-transform : rotate(-45deg) scale(1.5);
+}
+
+.M1-shape li.item5 .diamond-pic {
+  background: url("../../images_diamonds/bird.jpg");
+  background-size: cover;
+  /*background-position: center;*/  
+  position:absolute;
+  bottom:-30px;
+  right:20px;
+  -webkit-transform : rotate(-45deg) scale(1.9);
+}
+
+#anchor { 
+  padding-top: 50px; 
+}
+
+/*BACKGROUND COLOUR ANIMATION */
+/* https://stackoverflow.com/questions/27766343/change-background-color-every-30s-fade-transition/27766408 */
+/*
+
+.diamond-text-position {
+  -webkit-animation: background 5s cubic-bezier(1,0,0,1) infinite;
+  animation: background 100s cubic-bezier(1,0,0,1) infinite;  
+}
+
+
+@-webkit-keyframes background {
+  0% { color : #f99; }
+  33% { color: #9f9; }  
+  67% { color: #99f; }
+  100% { color: #f99; }
+}
+
+@keyframes background {
+  0% { color: white; }
+  40% { color: #f99; }
+  60% { color: #9f9; }  
+  80% { color: #99f; }
+  100% { color: #f99; }
+}*/
+
+
