@@ -22,9 +22,10 @@ window.onclick = function(event) {
 }
 
 
-const express = require('express');
+// function to load in images
+// const express = require('express');
 const app = express();
-const path = require('path');
+// const path = require('path');
 
 // Allow assets directory listings
 const serveIndex = require('serve-index'); 
