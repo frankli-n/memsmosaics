@@ -230,3 +230,26 @@
   height: 150px;
 }
 
+#video-container {
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  object-fit: cover;
+
+}
+
+#about-container {
+  padding-left: 100px;
+  padding-right: 100px;
+
+/*  width: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+*/}
+
+#text-container {
+  text-align: left
+}
