@@ -1,0 +1,34 @@
+#video-container {
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  object-fit: cover;
+
+}
+
+#about-container {
+  background-color: silver;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#text-container {
+  padding-top: 75px;
+}
+
+p {
+  font-size: 28px;
+}
+
+#text-container {
+  text-align: center;
+}
+
+#text-container img {
+  width: 50%;
+
+}

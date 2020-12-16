@@ -101,6 +101,8 @@ body {
 	height: 100px;
 	width: 100%;
 	float: left;
+  background-color: silver;
+
 }
 
 #gallery-header-center{
@@ -241,6 +243,8 @@ body {
 #gallery-content{
 	float: left;
 	width: 100%;
+	background-color: silver;
+
 }
 
 #gallery-content-center {

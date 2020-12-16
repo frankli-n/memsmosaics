@@ -196,10 +196,10 @@
   right:20px;
   -webkit-transform : rotate(-45deg) scale(1.9);
 }
-
+/*
 #anchor { 
   padding-top: 50px; 
-}
+}*/
 
 /*BACKGROUND COLOUR ANIMATION */
 /* https://stackoverflow.com/questions/27766343/change-background-color-every-30s-fade-transition/27766408 */
@@ -226,30 +226,3 @@
   100% { color: #f99; }
 }*/
 
-#gap {
-  height: 150px;
-}
-
-#video-container {
-  text-align: center;
-}
-
-video {
-  width: 100%;
-  object-fit: cover;
-
-}
-
-#about-container {
-  padding-left: 100px;
-  padding-right: 100px;
-
-/*  width: 100%;
-  text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
-*/}
-
-#text-container {
-  text-align: left
-}
