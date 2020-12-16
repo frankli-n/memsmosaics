@@ -28,8 +28,17 @@ p {
   text-align: center;
 }
 
+@media screen and (min-width: 900px) {
 #text-container img {
-  height: 90vh;
-  width: auto;
+/*  height: 70vh;
+*/  width: 50%;
+}}
 
-}
+@media screen and (max-width: 899px) {
+#text-container img {
+/*  height: 70vh;
+*/  width: 100%;
+}}
+
+
+
