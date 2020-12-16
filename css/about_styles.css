@@ -22,6 +22,8 @@ video {
 
 p {
   font-size: 28px;
+  text-align: left;
+  padding-bottom: 50px;
 }
 
 #text-container {
@@ -30,14 +32,16 @@ p {
 
 @media screen and (min-width: 900px) {
 #text-container img {
-/*  height: 70vh;
-*/  width: 50%;
+  width: 50%;
+  padding-bottom: 50px;
+
 }}
 
 @media screen and (max-width: 899px) {
 #text-container img {
-/*  height: 70vh;
-*/  width: 100%;
+  width: 100%;
+  padding-bottom: 50px;
+
 }}
 
 
