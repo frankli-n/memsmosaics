@@ -29,6 +29,7 @@ p {
 }
 
 #text-container img {
-  width: 50%;
+  height: 90vh;
+  width: auto;
 
 }
