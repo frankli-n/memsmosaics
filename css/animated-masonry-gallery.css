@@ -163,7 +163,7 @@ body {
 	float: left;
 	height: 35px;
 	width: 35px;
-	background-color: rgb(255, 215, 0, .5);
+	background-color: rgb(255, 255, 255, .5);
 	color: rgb(255, 215, 0, .5);
 	text-align: center;
 	font-size: 20px;
@@ -181,7 +181,7 @@ body {
 
 
 #gallery-header-center-left-icon:hover {
-	background-color: rgb(255, 215, 0, .5);
+	background-color: rgb(255, 255, 255, 1);
 	cursor: pointer;
 }
 
@@ -190,7 +190,7 @@ body {
 	float: left;
 	height: 35px;
 	font-size: 25px;
-	color: rgb(192,192,192);
+	color: #111;
 	margin-left: 20px;
 }
 }
@@ -229,16 +229,16 @@ body {
 }
 
 .gallery-header-center-right-links:hover {
-	background-color: rgb(192,192,192);
-	color: rgba(255,255,255,1);
+	background-color: rgb(255, 255, 255, .2);
+	color: #333333;
 	cursor: pointer;
 }
 .gallery-header-center-right-links-current {
 	color: #333333;
-	background-color: rgba(255, 215, 0, .5);
+	background-color: rgb(255, 255, 255, .5);
 }
 .gallery-header-center-right-links-current:hover {
-	background-color: rgba(255, 215, 0, 1);
+	background-color: rgb(255, 255, 255, 1);
 }
 #gallery-content{
 	float: left;

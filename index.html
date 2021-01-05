@@ -36,15 +36,35 @@
 
 <nav class="nav" id="navbar">
         <div class="container">
-            <div id="js-navigation" class="logo">
-                <a href="gallery.html" onclick=window.location.reload(true)>MemsMosaics</a>
+            <div class="logo">
+                <a href="#new-section">MemsMosaics</a>
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks" >
-                    <li id="js-navigation"><a href="about.html#about-container">About</a></li>
-                    <li><a href="https://www.facebook.com/memsmosiacs/" target="_'_blank'"><img src="../icons/facebook_icon.png"></a></li>
-                    <li><a href="https://www.instagram.com/memsmosaics/?hl=en" target="_'_blank'"><img src="../icons/insta_icon.png" ></a></li>
-                    <li><a href="mailto_meredithscott@optusnet.com.au" target="_'_blank'"><img src="../icons/email_icon.png"></a></li>
+                    <li id="js-navigation">
+                      <a href="about.html#about-container">About</a>
+                    </li>
+                    <li id="js-navigation">
+                      <a href="gallery.html" onclick=reload()>Gallery</a>
+                    </li>  
+                    <li id="js-navigation">
+                      <a href="contact.html">Contact</a>
+                    </li>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/memsmosaics/?hl=en" target="_'_blank'"><img src="../icons/insta_icon.png"></a>
+                    </li>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("Demo");
+  if (x.className.indexOf("w3-show") == -1) { 
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 
                 </ul>
             </div>
@@ -89,6 +109,7 @@
     </ul>
   </div>
   <div class="windowdiv"></div>
+  <div id="place"></div>
 
 
 

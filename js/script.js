@@ -30,3 +30,19 @@ const app = express();
 // Allow assets directory listings
 const serveIndex = require('serve-index'); 
 app.use('/images', serveIndex(path.join(__dirname, '/images')));
+
+// function double(place) {
+//   jump(place);
+//   reload();
+// }
+
+// function jump(h){
+//     var url = location.href;               //Save down the URL without hash.
+//     location.href = "#"+h;                 //Go to the target element.
+//     history.replaceState(null,null,url);
+// }
+
+function reload(){
+  onclick=window.location.reload(true); 
+  //Don't like hashes. Changing it back.
+}

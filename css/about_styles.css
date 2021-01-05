@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+h1 {
+  font-size: 5rem;
+  padding-bottom: 50px;
+}
+
 video {
   width: 100%;
   object-fit: cover;

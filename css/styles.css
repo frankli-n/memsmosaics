@@ -149,52 +149,52 @@
 }
 
 .M1-shape li.item1 .diamond-pic {
-  background: url("../../images_diamonds/moth.jpg");
+  background: url("../../images_diamonds/ghecko.jpg");
   background-size: cover;
   /*background-position: center;*/  
   position:absolute;
-  bottom:-30px;
-  right:20px;
-  -webkit-transform : rotate(-45deg) scale(1.9);
+  bottom:-15px;
+  right:-10px;
+  -webkit-transform : rotate(0deg) scale(1.3);
 }
 
 .M1-shape li.item2 .diamond-pic {
-  background: url("../../images_diamonds/hair.jpg");
+  background: url("../../images_diamonds/Little_Houses_2.jpg");
   background-size: cover;
   background-position: center;  
   position:absolute;
-  bottom:0px;
-  right:0px;
-  -webkit-transform : rotate(-45deg) scale(1.6);
+  bottom:-70px;
+  right:-45px;
+  -webkit-transform : rotate(-45deg) scale(2.5);
 }
 
 .M1-shape li.item3 .diamond-pic {
-  background: url("../../images_diamonds/bees.jpg");
+  background: url("../../images_diamonds/budgies.jpg");
   background-size: cover;
   /*background-position: center;*/  
   position:absolute;
   bottom:0px;
   right:0px;
-  -webkit-transform : rotate(-45deg) scale(1.5);
+  -webkit-transform : rotate(-45deg) scale(1.4);
 }
 .M1-shape li.item4 .diamond-pic {
-  background: url("../../images_diamonds/plant.jpg");
+  background: url("../../images_diamonds/Tupaia.png");
   background-size: cover;
   /*background-position: center;*/  
   position:absolute;
   bottom:0px;
-  right:0px;
-  -webkit-transform : rotate(-45deg) scale(1.5);
+  right:-55px;
+  -webkit-transform : rotate(-45deg) scale(2);
 }
 
 .M1-shape li.item5 .diamond-pic {
-  background: url("../../images_diamonds/bird.jpg");
+  background: url("../../images_diamonds/golden_flight.jpg");
   background-size: cover;
   /*background-position: center;*/  
   position:absolute;
   bottom:-30px;
   right:20px;
-  -webkit-transform : rotate(-45deg) scale(1.9);
+  -webkit-transform : rotate(-90deg) scale(1.5);
 }
 /*
 #anchor { 
@@ -225,4 +225,40 @@
   80% { color: #99f; }
   100% { color: #f99; }
 }*/
+.dropbtn {
+  background-color: inherit;
+  color: white;
 
+  font-size: 2.5rem;
+  border: none;
+}
+
+.dropdown {
+/*  position: relative;
+  display: inline-block;*/
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #111;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+/*#email {
+  font-size: 1.5rem;
+}*/
+
+.dropdown-content a {
+  display: block;
+  font-size: 1rem;
+}
+
+.dropdown-content a:hover {background-color: inherit;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: inherit;}
