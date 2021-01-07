@@ -63,27 +63,6 @@
 }
 
 
-
-.diamond-text-position {
-/*	-webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;*/
-	position: relative;
-	top: 50%;
-	text-align: center;
-	height: -100px;
-	-webkit-transform : rotate(-45deg) scale(1.0);
-	line-height: 0px;
-  background-color: transparent;
-}
-
-.diamond-text-font {
-  font-family: 'Iceland', cursive;
-  font-weight: bold;
-  font-size: 2.9em;
-  color: white;
-}
-
-
 .M1-shape li:hover {
   opacity: 1;
 }
@@ -149,7 +128,7 @@
 }
 
 .M1-shape li.item1 .diamond-pic {
-  background: url("../../images_diamonds/ghecko.jpg");
+  background: url("../images_diamonds/ghecko.jpg");
   background-size: cover;
   /*background-position: center;*/  
   position:absolute;
@@ -265,7 +244,7 @@
 
 
 .forsale:hover {
-  opacity: .2
+  opacity: .2;
 }
 
 .centered {
@@ -280,4 +259,10 @@
   text-align: center;
 }
 
+figure {
+  z-index: 1;
+}
 
+img {
+  opacity: 0.1;
+}

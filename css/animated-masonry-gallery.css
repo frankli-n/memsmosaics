@@ -338,4 +338,25 @@ button {
 .show {display:block;}
 
 
+.all:hover {
+  opacity: 1;
 
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+}
+
+
+
+img {
+  opacity: 0.1;
+}
