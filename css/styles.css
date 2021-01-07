@@ -123,10 +123,7 @@
 }
 
 .M1-shape li.item2 {
-  position: relative;
-  top: 90px;
-  left: 0px;
-  -webkit-transform : rotate(45deg) scale(0.7);
+  display: none;
 }
 
 .M1-shape li.item3 {
@@ -138,7 +135,10 @@
 }
 
 .M1-shape li.item5 {
-  display: none;
+  position: relative;
+  top: 90px;
+  left: 0px;
+  -webkit-transform : rotate(45deg) scale(0.7);
 }
 }
 
@@ -182,9 +182,9 @@
   background-size: cover;
   /*background-position: center;*/  
   position:absolute;
-  bottom:0px;
-  right:-55px;
-  -webkit-transform : rotate(-45deg) scale(2);
+  bottom:-15px;
+  right:-40px;
+  -webkit-transform : rotate(-45deg) scale(1.8);
 }
 
 .M1-shape li.item5 .diamond-pic {
