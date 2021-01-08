@@ -339,8 +339,7 @@ button {
 
 
 .all:hover {
-  opacity: 1;
-
+  opacity: .9;
 }
 
 .centered {
@@ -355,8 +354,7 @@ button {
   text-align: center;
 }
 
-
-
 img {
-  opacity: 0.1;
+  opacity: 1;
 }
+

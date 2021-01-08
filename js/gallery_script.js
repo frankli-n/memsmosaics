@@ -17,12 +17,24 @@ function check_button(){
 		$("#gallery-header-center-left-title").html('All');
 		}
 	if(button==2){
-		$("#filter-forsale").addClass(button_class);
-		$("#gallery-header-center-left-title").html('For Sale');
+		$("#filter-nature").addClass(button_class);
+		$("#gallery-header-center-left-title").html('Nature');
 		}
 	if(button==3){
-		$("#filter-sold").addClass(button_class);
-		$("#gallery-header-center-left-title").html('Sold');
+		$("#filter-new").addClass(button_class);
+		$("#gallery-header-center-left-title").html('New');
+		}
+	if(button==4){
+		$("#filter-jewellery").addClass(button_class);
+		$("#gallery-header-center-left-title").html('Jewellery');
+		}	
+	if(button==5){
+		$("#filter-people").addClass(button_class);
+		$("#gallery-header-center-left-title").html('People');
+		}	
+	if(button==6){
+		$("#filter-other").addClass(button_class);
+		$("#gallery-header-center-left-title").html('Other');
 		}	
 }
 	
@@ -42,8 +54,14 @@ function check_size(){
 
 	
 $("#filter-all").click(function() { $container.isotope({ filter: '.all' }); button = 1; check_button(); });
-$("#filter-forsale").click(function() {  $container.isotope({ filter: '.forsale' }); button = 2; check_button();  });
-$("#filter-sold").click(function() {  $container.isotope({ filter: '.sold' }); button = 3; check_button();  });
+$("#filter-nature").click(function() {  $container.isotope({ filter: '.nature' }); button = 2; check_button();  });
+$("#filter-new").click(function() {  $container.isotope({ filter: '.new' }); button = 3; check_button();  });
+$("#filter-jewellery").click(function() {  $container.isotope({ filter: '.jewellery' }); button = 4; check_button();  });
+$("#filter-people").click(function() {  $container.isotope({ filter: '.people' }); button = 5; check_button();  });
+$("#filter-other").click(function() {  $container.isotope({ filter: '.other' }); button = 6; check_button();  });
+
+
+
 $("#gallery-header-center-left-icon").click(function() { if(size==0){size=1;}else if(size==1){size=0;} check_size(); });
 
 
