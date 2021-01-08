@@ -1,67 +1,57 @@
 
-<link rel="stylesheet" type="text/css" href="css/navbar.css">
 <link rel="stylesheet" type="text/css" href="./css/about_styles.css">
 
 
-<nav class="nav" id="navbar">
-            <div class="logo">
-                <a href="index.html">MemsMosaics</a>
-            </div>
-            <div id="mainListDiv" class="main_list">
-                <ul class="navlinks" >
-                    <li>
-                      <a href="about.html#about-container">About</a>
-                    </li>
-                    <li>
-                      <a href="gallery.html" onclick=reload()>Gallery</a>
-                    </li>  
-                    <li>
-                      <a href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/memsmosaics/?hl=en" target="_'_blank'"><img src="../icons/insta_icon.png"></a>
-                    </li>
-                </ul>
-            <span class="navTrigger">
-                <i></i>
-                <i></i>
-                <i></i>
-            </span>
-        </div>
-</nav>
+<!-- navbar -->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<body>
+        
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+    </div>
+
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
 
 
-<div id="new-section"></div>
-<div id="about-container">
-<!-- 	<h1>About</h1> -->
-	<div id="video-container" >
-		<video poster="images_about/thumbnail.png" controls>
-		  <source src="images_about/about.mp4" type="video/mp4" >
-		  <source src="movie.ogg" type="video/ogg">
-		  Your browser does not support the video tag.
-		</video>
-	</div>
-	<div id="text-container">
-		<p>
-			Mosaicing offers me boundless possibilities for expression.
-		My art and technical studies in Italy and Australia have given me the skills needed to mosaic using my favourite material - handmade glass.</p>
+	<div id="new-section"></div>
+	<div id="about-container">
+	<!-- 	<h1>About</h1> -->
+		<div id="video-container" >
+			<video poster="images_about/thumbnail.png" controls>
+			  <source src="images_about/about.mp4" type="video/mp4" >
+			  <source src="movie.ogg" type="video/ogg">
+			  Your browser does not support the video tag.
+			</video>
+		</div>
+		<div id="text-container">
+			<p>
+				Mosaicing offers me boundless possibilities for expression.
+			My art and technical studies in Italy and Australia have given me the skills needed to mosaic using my favourite material - handmade glass.</p>
 
-		<img src="images_about/action.jpeg">
+			<img src="images_about/action.jpeg">
 
-		<p>
-		I love to mix the a variety of handmade glass such as Italian smalti, 24ct gold leaf tesserae, millefiori, stained glass and iridised glass.
-		Mixed media interests me and I often include found objects, jewellery, bone china, antique glass and ceramic tiles.
-		</p>
+			<p>
+			I love to mix the a variety of handmade glass such as Italian smalti, 24ct gold leaf tesserae, millefiori, stained glass and iridised glass.
+			Mixed media interests me and I often include found objects, jewellery, bone china, antique glass and ceramic tiles.
+			</p>
 
-		<img src="images_about/hammer_hardie.jpeg">
+			<img src="images_about/hammer_hardie.jpeg">
 
-		<p>
-		The technique of placing small pieces of beautiful materials (called tesserae) together to form images enables me to immortalise the creations of my imagination.
-		</p>	
+			<p>
+			The technique of placing small pieces of beautiful materials (called tesserae) together to form images enables me to immortalise the creations of my imagination.
+			</p>	
+				
+			<img src="images_about/pieces.jpeg">
 			
-		<img src="images_about/pieces.jpeg">
-		
+			</div>
 		</div>
 	</div>
-</div>
 
+	
+</body>
