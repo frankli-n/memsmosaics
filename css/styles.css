@@ -243,3 +243,7 @@
 .dropdown:hover .dropbtn {background-color: inherit;}
 
 
+.forsale:hover {
+  opacity: .2
+}
+

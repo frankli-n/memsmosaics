@@ -31,3 +31,23 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+.centered {
+/*  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 200%;
+    width: auto;
+  height: auto;*/
+}
+
+.card img{
+  object-fit: cover;
+}
+
+.card-price {
+  margin-top: 100px;
+}
+
+
