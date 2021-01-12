@@ -46,8 +46,17 @@ footer p {
   object-fit: cover;
 }
 
-.card-price {
-  margin-top: 100px;
+.title {
+  text-align: center;
+}
+
+.price {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.description {
+
 }
 
 
