@@ -37,12 +37,13 @@ body {
 
 .nav div.logo a {
     text-decoration: none;
-    color: rgba(192, 192, 192,1);
+    color: rgba(209,101,28,1); /*orange*/
     font-size: 2.5rem;
 }
 
 .nav div.logo a:hover {
-    color: rgba(255, 215, 0,0.5);
+    color: rgba(209,101,28,1);
+    font-weight: bold;
 }
 
 .nav div.main_list {
@@ -68,13 +69,13 @@ body {
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: rgba(192, 192, 192,1);
+    color: rgba(209,101,28,1); /*orange*/
     /*line-height: 65px;*/
     font-size: 2.4rem;
 }
 
 .nav div.main_list ul li a:hover {
-    color: rgba(255, 215, 0,0.5);
+    font-weight: bold;
 }
 
 
@@ -373,11 +374,12 @@ body {
     height: 10px;
 }
 
-#new-section {
-/*  height: 100px;
-*/}
-
 .navlinks {
     display: inline-block;
     vertical-align: top;
+}
+
+#MM {
+    padding-bottom: 5px;
+    padding-right: 20px;
 }
