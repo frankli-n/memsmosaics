@@ -58,12 +58,19 @@ p {
 
 }}
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 899px) and (min-width: 690px) {
+#text-container img {
+  width: 49%;
+  padding-bottom: 50px;
+}}
+
+@media screen and (max-width: 689px) {
 #text-container img {
   width: 100%;
   padding-bottom: 50px;
 
 }}
+
 
 #new-section {
   padding-top: 70px;
