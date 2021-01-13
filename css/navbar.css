@@ -37,13 +37,13 @@ body {
 
 .nav div.logo a {
     text-decoration: none;
-    color: rgba(209,101,28,1); /*orange*/
+    color: rgba(209,101,28,.75); /*orange*/
     font-size: 2.5rem;
 }
 
 .nav div.logo a:hover {
     color: rgba(209,101,28,1);
-    font-weight: bold;
+    color: rgba(209,101,28,1); /*orange*/
 }
 
 .nav div.main_list {
@@ -69,13 +69,13 @@ body {
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: rgba(209,101,28,1); /*orange*/
+    color: rgba(209,101,28,.75); /*orange*/
     /*line-height: 65px;*/
     font-size: 2.4rem;
 }
 
 .nav div.main_list ul li a:hover {
-    font-weight: bold;
+    color: rgba(209,101,28,1); /*orange*/
 }
 
 

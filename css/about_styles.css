@@ -4,8 +4,9 @@
 
 h1 {
   font-size: 5rem;
-  padding-bottom: 50px;
+  /*text-align: center;*/
   font-weight: normal;
+  color: rgba(209,101,28,1); /*orange*/
 }
 
 video {
@@ -15,7 +16,7 @@ video {
 }
 
 #about-container {
-  background-color: silver;
+  background-color: white;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 20px;
@@ -26,10 +27,24 @@ video {
   padding-top: 75px;
 }
 
+@media screen and (min-width: 1000px) {
 p {
   font-size: 28px;
   text-align: left;
   padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: rgba(32,32,32,.75) /*soft grey*/
+
+}
+}
+
+@media screen and (max-width: 999px) {
+p {
+  font-size: 28px;
+  text-align: left;
+  padding-bottom: 50px;
+}
 }
 
 #text-container {
@@ -38,7 +53,7 @@ p {
 
 @media screen and (min-width: 900px) {
 #text-container img {
-  width: 50%;
+  width: 33%;
   padding-bottom: 50px;
 
 }}
