@@ -53,14 +53,14 @@ p {
 
 @media screen and (min-width: 900px) {
 #text-container img {
-  width: 33%;
+  height: 50%;
   padding-bottom: 50px;
 
 }}
 
 @media screen and (max-width: 899px) and (min-width: 690px) {
 #text-container img {
-  width: 49%;
+  height: 49%;
   padding-bottom: 50px;
 }}
 
