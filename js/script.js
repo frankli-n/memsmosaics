@@ -46,3 +46,9 @@ function reload(){
   onclick=window.location.reload(true); 
   //Don't like hashes. Changing it back.
 }
+
+
+document.querySelector('#imgClickAndChange').addEventListener('click', () => {
+  document.querySelector('#imgClickAndChange').classList.add('myClass');
+});
+

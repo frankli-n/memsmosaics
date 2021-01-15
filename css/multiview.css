@@ -1,0 +1,17 @@
+body {
+	background-color: #111
+}
+
+img {
+	float: center;
+	height: 50vh;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+div {
+	text-align:center;
+}
