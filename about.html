@@ -1,35 +1,57 @@
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="./css/about_styles.css">
+	  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+	<link rel="stylesheet" type="text/css" href="./css/about_styles.css">
+	  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+
+  <!-- <script type="text/javascript" src="http://simbyone.com/demo/animated-masonry-gallery-with-filters/_scripts/jquery-2.0.2.min.js"></script> -->
+  <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
 
 	<!-- navbar -->
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 	<title>Memsmosaics</title>
-</head>
+<nav class="nav" id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="/index.html"><img id="MM" src="icons/memsmosaics_logo.jpg">MemsMosaics</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks" >
+                    <li>
+                      <a href="about.html">About</a>
+                    </li>
+                    <li>
+                      <a href="shop.html">Shop</a>
+                    </li>
+                    <li>
+                      <a href="gallery.html">Gallery</a>
+                    </li>  
+                    <li>
+                      <a href="contact.html">Contact</a>
+                    </li>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/memsmosaics/?hl=en" target="_'_blank'"><img src="../icons/insta_icon.png"></a>
+                    </li>
 
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
 
 <body>
-        
-    <!--Navigation bar-->
-    <div id="nav-placeholder">
-    </div>
-
-    <script>
-    $(function(){
-      $("#nav-placeholder").load("nav.html");
-    });
-    </script>
-    <!--end of Navigation bar-->
-
-
 	<!-- <div id="new-section"></div> -->
 	<div id="about-container">
 		<div id="text-container">	
@@ -72,6 +94,8 @@
 			<img src="images_about/pieces.jpeg">
 		</div>
 	</div>
+
+<script type="text/javascript" src="js/navbar_script.js"></script>
 
 	
 </body>
