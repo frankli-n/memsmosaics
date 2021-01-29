@@ -53,18 +53,57 @@ p {
 
 @media screen and (min-width: 900px) {
 #text-container img {
-  height: 50%;
+  width: 100%;
   padding-bottom: 50px;
+}
+.pics-cont{
+  box-sizing: border-box;
+  width: 33.3339%;
+  height: 30vw;
+  float: left;
+}
+.pics-cont img {
+  object-fit: cover;
+  height: 100%;
+}
+#hardie {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+}
 
-}}
-
-@media screen and (max-width: 899px) and (min-width: 690px) {
+@media screen and (max-width: 899px) and (min-width: 601px) {
 #text-container img {
-  height: 49%;
+  width: 100%;
   padding-bottom: 50px;
-}}
+}
+.pics-cont{
+  box-sizing: border-box;
+  /*width: 50%;*/
+  height: 50vw;
+  float: left;
+}
+.pics-cont img {
+  object-fit: cover;
+  height: 100%;
+}
+#hardie {
+  padding-left: 15px;
+  width: 50%;
+  /*padding-right: 30px;*/
+}
+#action {
+  padding-right: 15px;
+  width: 50%;
+}
+#pieces {
+  margin-top: 30px;
+  width: 100%;
 
-@media screen and (max-width: 689px) {
+}
+}
+
+@media screen and (max-width: 600px) {
 #text-container img {
   width: 100%;
   padding-bottom: 50px;
@@ -75,5 +114,3 @@ p {
 #new-section {
   padding-top: 70px;
 }
-
-
