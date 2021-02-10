@@ -24,12 +24,12 @@ window.onclick = function(event) {
 
 // function to load in images
 // const express = require('express');
-const app = express();
+// const app = express();
 // const path = require('path');
 
 // Allow assets directory listings
-const serveIndex = require('serve-index'); 
-app.use('/images', serveIndex(path.join(__dirname, '/images')));
+// const serveIndex = require('serve-index'); 
+// app.use('/images', serveIndex(path.join(__dirname, '/images')));
 
 // function double(place) {
 //   jump(place);
@@ -42,13 +42,9 @@ app.use('/images', serveIndex(path.join(__dirname, '/images')));
 //     history.replaceState(null,null,url);
 // }
 
-function reload(){
-  onclick=window.location.reload(true); 
-  //Don't like hashes. Changing it back.
-}
+// function reload(){
+//   onclick=window.location.reload(true); 
+//   //Don't like hashes. Changing it back.
+// }
 
-
-document.querySelector('#imgClickAndChange').addEventListener('click', () => {
-  document.querySelector('#imgClickAndChange').classList.add('myClass');
-});
-
+// 

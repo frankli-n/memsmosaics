@@ -55,7 +55,7 @@
   width: 200px;
   height: 200px;
   background: #000;
-  transform: rotate(45deg);
+  /*transform: rotate(45deg);*/
   transition: 0.5s;
   overflow: hidden;
   opacity: 0.5;
@@ -67,6 +67,7 @@
   opacity: 1;
 }
 
+/*position the diamonds in an M shape*/
 @media (min-width: 891px) {
 .M1-shape li.item1 {
   bottom: 0;
@@ -92,17 +93,71 @@
   bottom: 0;
   left: 100%;
 }
+
+#pic1 {
+  background: url('../images_diamonds/ghecko.jpg');
+  background-size: cover;
+  /*background-position: center;*/  
+  position:absolute;
+/*  bottom:-15px;
+  right:-10px;
+  -webkit-transform : rotate(0deg) scale(1.3);*/
 }
 
+#pic2 {
+  background: url("../../images_diamonds/beetle.jpg");
+  background-size: cover;
+  /*background-position: center;  */
+  /*position:absolute;*/
+/*  bottom:0px;
+  right:-20px;
+  -webkit-transform : rotate(-90deg) scale(1.2);*/
+}
+
+#pic3 {
+  background: url("../../images_diamonds/budgies45.jpg");
+  background-size: cover;
+  /*background-position: center;*/  
+  /*position:absolute;*/
+/*  bottom:0px;
+  right:0px;
+  -webkit-transform : rotate(-45deg) scale(1.4);*/
+}
+#pic4 {
+  background: url("../../images_diamonds/tupaia45.png");
+  background-size: cover;
+  /*background-position: center;*/  
+  /*position:absolute;*/
+/*  bottom:-15px;
+  right:-40px;
+  -webkit-transform : rotate(-45deg) scale(1.8);*/
+}
+
+#pic5 {
+  background: url("../../images_diamonds/golden_flight.jpg");
+  background-size: cover;
+  /*background-position: center;*/  
+  /*position:absolute;*/
+/*  bottom:-30px;
+  right:20px;*/
+  /*-webkit-transform : rotate(-90deg) scale(1.5);*/
+}
+
+}
+
+/*position the diamonds for a small screen*/
 @media (max-width: 890px) {
 .M1-shape li.item1 {
   top: -150px;
   left: 0px;
-  -webkit-transform : rotate(45deg) scale(0.8);
+  /*-webkit-transform : rotate(45deg) scale(0.8);*/
 }
 
 .M1-shape li.item2 {
-  display: none;
+    position: relative;
+  top: 90px;
+  left: 0px;
+  /*-webkit-transform : rotate(45deg) scale(0.8);*/
 }
 
 .M1-shape li.item3 {
@@ -114,67 +169,38 @@
 }
 
 .M1-shape li.item5 {
-  position: relative;
-  top: 90px;
-  left: 0px;
-  -webkit-transform : rotate(45deg) scale(0.8);
+  display: none;
+}
+
+#pic1 {
+  background: url('../images_diamonds/phone/beetle_phoneview.png');
+  background-size: cover;
+  /*background-position: center;*/  
+  /*position:absolute;*/
+  /*bottom:-15px;*/
+  /*right:-10px;*/
+  -webkit-transform : rotate(0deg) scale(1);
+}
+
+#pic2 {
+  background: url("../../images_diamonds/phone/tuapaia_phoneview.png");
+  background-size: cover;
+  /*background-position: center;  */
+  /*position:absolute;*/
+  /*bottom:0px;*/
+  /*right:-20px;*/
+  -webkit-transform : rotate(0deg) scale(1);
 }
 }
+
 
 .M1-shape li .diamond-pic {
   width: 100%;
   height: 100%;
-  transform: scale(1.1);
+  /*transform: scale(1.1);*/
 }
 
-.M1-shape li.item1 .diamond-pic {
-  background: url("../images_diamonds/ghecko.jpg");
-  background-size: cover;
-  /*background-position: center;*/  
-  position:absolute;
-  bottom:-15px;
-  right:-10px;
-  -webkit-transform : rotate(0deg) scale(1.3);
-}
 
-.M1-shape li.item2 .diamond-pic {
-  background: url("../../images_diamonds/Christmas_Beetle.jpg");
-  background-size: cover;
-  background-position: center;  
-  position:absolute;
-  bottom:0px;
-  right:-20px;
-  -webkit-transform : rotate(-90deg) scale(1.2);
-}
-
-.M1-shape li.item3 .diamond-pic {
-  background: url("../../images_diamonds/budgies.jpg");
-  background-size: cover;
-  /*background-position: center;*/  
-  position:absolute;
-  bottom:0px;
-  right:0px;
-  -webkit-transform : rotate(-45deg) scale(1.4);
-}
-.M1-shape li.item4 .diamond-pic {
-  background: url("../../images_diamonds/Tupaia.png");
-  background-size: cover;
-  /*background-position: center;*/  
-  position:absolute;
-  bottom:-15px;
-  right:-40px;
-  -webkit-transform : rotate(-45deg) scale(1.8);
-}
-
-.M1-shape li.item5 .diamond-pic {
-  background: url("../../images_diamonds/golden_flight.jpg");
-  background-size: cover;
-  /*background-position: center;*/  
-  position:absolute;
-  bottom:-30px;
-  right:20px;
-  -webkit-transform : rotate(-90deg) scale(1.5);
-}
 /*
 #anchor { 
   padding-top: 50px; 
