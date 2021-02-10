@@ -41,6 +41,7 @@ document.querySelectorAll('.diamond-pic').forEach(item => {
   item.addEventListener("click", function(event){
 	this.style.background = "url(" + d[counter] + ")";
 	this.style.backgroundSize = "cover";
+	this.style.transitionDuration = "1s";
   	this.src = d[counter];
 	  // As long as the counter is less than the last index in the array
 	  // increase the counter. Otherwise, start over.
