@@ -10,7 +10,7 @@ let imgs = [
   "../../images_diamonds/littlegem.jpg",
   "../../images_diamonds/cicadas.jpg",
   "../../images_diamonds/tupaia45.png",
-  "../../images_diamonds/ghecko.png",
+  "../../images_diamonds/ghecko.jpg",
   "../../images_diamonds/golden_flight.jpg",
   "../../images_diamonds/beetle.jpg",
   "../../images_diamonds/budgies.png"

@@ -274,14 +274,20 @@
 }
 
 
-#call span   {
+.center {
   position: absolute;
   bottom: 0;
-  right: 0;
-  color: rgba(209,101,28,.5);
-  font-size: large;
+  width: 100%;
+  text-align: center;
 }
 
-#call span:hover   {
-  color: rgba(209,101,28,1);
+p {
+  color: rgba(209,101,28,.5);
+  font-size: large;
+
+}
+p:hover   {
+  transition: 5s;
+  color: white;
+  background-color: rgba(209,101,28,1);
 }
