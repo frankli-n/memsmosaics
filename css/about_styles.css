@@ -114,3 +114,21 @@ p {
 #new-section {
   padding-top: 70px;
 }
+
+.center {
+/*  position: absolute;
+  bottom: 0;*/
+  width: 100%;
+  text-align: center;
+}
+
+.ad {
+  color: rgba(209,101,28,.5);
+  font-size: large;
+
+}
+.ad:hover   {
+  transition: 3s;
+  color: white;
+  background-color: rgba(209,101,28,1);
+}
