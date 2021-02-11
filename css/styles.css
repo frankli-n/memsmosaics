@@ -274,6 +274,7 @@
 }
 
 
+@media (min-width: 451px) {
 .center {
   position: absolute;
   bottom: 0;
@@ -283,11 +284,34 @@
 
 .ad {
   color: rgba(209,101,28,.5);
-  font-size: large;
+  width: 100vw;
+
 
 }
 .ad:hover   {
   transition: 3s;
   color: white;
   background-color: rgba(209,101,28,1);
+}
+}
+
+@media (max-width: 450px) {
+.center {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.ad {
+  color: rgba(209,101,28,.5);
+  /*text-orientation: upright; writing-mode: vertical-lr;*/
+  /*writing-mode: tb-rl;*/
+}
+
+.ad:hover   {
+  transition: 3s;
+  color: white;
+  background-color: rgba(209,101,28,1);
+}
 }

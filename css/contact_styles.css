@@ -18,6 +18,11 @@ p {
 
 }
 
+#email-contact-page {
+  width: 90%;
+  font-size: 20px;
+}
+
 #text-container {
   text-align: left;
 }
@@ -36,6 +41,21 @@ iframe {
   padding-top: 70px;
 }
 
+
+@media (min-width: 525px) {
+#em {
+  /*font-size: 5vw;*/
+  vertical-align:9px; 
+}
+}
+@media (max-width: 526px) {
+#em {
+  font-size: 5vw;
+  vertical-align:9px; 
+}
+}
+
+
 .center {
   width: 100%;
   text-align: center;
@@ -51,3 +71,4 @@ iframe {
   transition: 3s;
   color: white;
   background-color: rgba(209,101,28,1);
+
