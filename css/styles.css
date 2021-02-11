@@ -273,3 +273,15 @@
   opacity: .2
 }
 
+
+#call span   {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: rgba(209,101,28,.5);
+  font-size: large;
+}
+
+#call span:hover   {
+  color: rgba(209,101,28,1);
+}
