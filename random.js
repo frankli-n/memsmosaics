@@ -2,19 +2,36 @@
 
 let counter = 0;
 let imgs = [
-  "../../images_diamonds/beetle.jpg",
-  "../../images_diamonds/budgies45.jpg",
+"../../images_diamonds/blossoms.jpg",
+
+"../../images_diamonds/hands.jpg",
+"../../images_diamonds/bouquet.jpg",
   "../../images_diamonds/shattered_smalti.jpg",
+  "../../images_diamonds/moth.jpg",
+  "../../images_diamonds/littlegem.jpg",
   "../../images_diamonds/cicadas.jpg",
-  "../../images_diamonds/tupaia45.png"
+  "../../images_diamonds/tupaia45.png",
+  "../../images_diamonds/ghecko.png",
+  "../../images_diamonds/golden_flight.jpg",
+  "../../images_diamonds/beetle.jpg",
+  "../../images_diamonds/budgies.png",
+
+  
+
+
 ];
 
 let imgs_phone = [
-  "../../images_diamonds/phone/beetle_phoneview.png",
-  "../../images_diamonds/phone/tuapaia_phoneview.png",
-  "../../images_diamonds/phone/littlehouses1_phoneview.png",
+  "../../images_diamonds/phone/turtle.png",
+  "../../images_diamonds/phone/mirror.png",
+  "../../images_diamonds/phone/hand.png",
+  "../../images_diamonds/phone/gumnuts.png",
+  "../../images_diamonds/phone/necklaces.png",
   "../../images_diamonds/phone/littlehouses2_phoneview.png",
-  "../../images_diamonds/phone/cross_phoneview.png"
+  "../../images_diamonds/phone/cross_phoneview.png",
+  "../../images_diamonds/phone/beetle_phoneview.png",
+    "../../images_diamonds/phone/lh5.png",
+  "../../images_diamonds/phone/tuapaia_phoneview.png",
 ];
 
 function myFunction(x) {
