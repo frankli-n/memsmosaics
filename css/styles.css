@@ -281,13 +281,13 @@
   text-align: center;
 }
 
-p {
+.ad {
   color: rgba(209,101,28,.5);
   font-size: large;
 
 }
-p:hover   {
-  transition: 5s;
+.ad:hover   {
+  transition: 3s;
   color: white;
   background-color: rgba(209,101,28,1);
 }

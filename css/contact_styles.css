@@ -4,7 +4,7 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -35,3 +35,19 @@ iframe {
 #new-section {
   padding-top: 70px;
 }
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+.ad {
+  color: rgba(209,101,28,.5);
+  font-size: large;
+  margin-top: 100px;
+
+}
+.ad:hover   {
+  transition: 3s;
+  color: white;
+  background-color: rgba(209,101,28,1);
