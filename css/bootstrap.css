@@ -2900,15 +2900,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-	color: rgba(209,101,28);
-	border-color: rgba(209,101,28);
+	color: #6c757d;
+	border-color: #6c757d;
 	background-color: #fff;
 }
 
 .btn-outline-secondary:hover {
 	color: #fff;
-	background-color: rgba(209,101,28);
-	border-color: rgba(209,101,28);
+	background-color: #6c757d;
+	border-color: #6c757d
 }
 
 .btn-outline-secondary.focus,

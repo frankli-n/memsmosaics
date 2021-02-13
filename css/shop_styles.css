@@ -72,3 +72,9 @@ footer p {
 #filters {
   padding-bottom: 20px;
 }
+
+.sortByPrice, .sortByPrice:hover{ 
+  color: inherit;
+  text-decoration: none;
+}
+
