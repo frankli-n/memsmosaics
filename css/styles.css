@@ -146,7 +146,7 @@
 }
 
 /*position the diamonds for a small screen*/
-@media (max-width: 890px) {
+@media (max-width: 890px) and (min-height: 561px){
 .M1-shape li.item1 {
   top: -150px;
   left: 0px;
@@ -154,7 +154,7 @@
 }
 
 .M1-shape li.item2 {
-    position: relative;
+  position: relative;
   top: 90px;
   left: 0px;
   /*-webkit-transform : rotate(45deg) scale(0.8);*/
@@ -198,6 +198,100 @@
   width: 100%;
   height: 100%;
   /*transform: scale(1.1);*/
+}
+
+@media (max-height: 560px) and (max-width: 890px) and (min-width: 550px){
+.M1-shape li.item1 {
+  top: 0px;
+  left: 175px;
+  /*-webkit-transform : rotate(45deg) scale(0.8);*/
+}
+
+.M1-shape li.item2 {
+  position: relative;
+  top: 0px;
+  right: 175px;
+  /*-webkit-transform : rotate(45deg) scale(0.8);*/
+}
+
+.M1-shape li.item3 {
+  display: none;
+}
+
+.M1-shape li.item4 {
+  display: none;
+}
+
+.M1-shape li.item5 {
+  display: none;
+}
+
+#pic1 {
+  background: url('../images_diamonds/phone/beetle_phoneview.png');
+  background-size: cover;
+  /*background-position: center;*/  
+  /*position:absolute;*/
+  /*bottom:-15px;*/
+  /*right:-10px;*/
+  -webkit-transform : rotate(0deg) scale(1);
+}
+
+#pic2 {
+  background: url("../../images_diamonds/phone/tuapaia_phoneview.png");
+  background-size: cover;
+  /*background-position: center;  */
+  /*position:absolute;*/
+  /*bottom:0px;*/
+  /*right:-20px;*/
+  -webkit-transform : rotate(0deg) scale(1);
+}
+
+}
+@media (max-height: 560px) and (max-width: 549px) {
+.M1-shape li.item1 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /*-webkit-transform : rotate(45deg) scale(0.8);*/
+}
+
+.M1-shape li.item2 {
+  display: none;
+  /*-webkit-transform : rotate(45deg) scale(0.8);*/
+}
+
+.M1-shape li.item3 {
+  display: none;
+}
+
+.M1-shape li.item4 {
+  display: none;
+}
+
+.M1-shape li.item5 {
+  display: none;
+}
+
+#pic1 {
+  background: url('../images_diamonds/phone/beetle_phoneview.png');
+  background-size: cover;
+  /*background-position: center;*/  
+  /*position:absolute;*/
+  /*bottom:-15px;*/
+  /*right:-10px;*/
+  -webkit-transform : rotate(0deg) scale(1);
+}
+
+#pic2 {
+  background: url("../../images_diamonds/phone/tuapaia_phoneview.png");
+  background-size: cover;
+  /*background-position: center;  */
+  /*position:absolute;*/
+  /*bottom:0px;*/
+  /*right:-20px;*/
+  -webkit-transform : rotate(0deg) scale(1);
+}
+
 }
 
 
