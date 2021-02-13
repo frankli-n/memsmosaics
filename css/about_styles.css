@@ -118,6 +118,7 @@ p {
 .center {
 /*  position: absolute;
   bottom: 0;*/
+  float: left;
   width: 100%;
   text-align: center;
 }
