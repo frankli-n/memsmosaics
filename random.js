@@ -11,22 +11,24 @@ let imgs = [
   "../../images_diamonds/littlegem.jpg",
   "../../images_diamonds/tupaia45.png",
   "../../images_diamonds/ghecko.jpg",
-  // "../../images_diamonds/golden_flight.jpg",
+  "../../images_diamonds/golden_flight.jpg",
   // "../../images_diamonds/beetle.jpg",
   "../../images_diamonds/budgies.png"
 ];
 
 let imgs_phone = [
   "../../images_diamonds/phone/turtle.png",
+  "../../images_diamonds/phone/mother_pearl.png",
   "../../images_diamonds/phone/mirror.png",
   "../../images_diamonds/phone/hand.png",
   "../../images_diamonds/phone/gumnuts.png",
   "../../images_diamonds/phone/necklaces.png",
   "../../images_diamonds/phone/littlehouses2_phoneview.png",
   "../../images_diamonds/phone/cross_phoneview.png",
-  "../../images_diamonds/phone/beetle_phoneview.png",
+  "../../images_diamonds/phone/necklace20.png",
   "../../images_diamonds/phone/lh5.png",
-  "../../images_diamonds/phone/tuapaia_phoneview.png"
+  "../../images_diamonds/phone/tuapaia_phoneview.png",
+  "../../images_diamonds/phone/beetle_phoneview.png"
 ];
 
 function myFunction(x) {
