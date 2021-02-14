@@ -7,7 +7,13 @@ $('.tab-content').on('click', '.sortByPrice', function() {
       (convertToNumber($(a).find('.price').html()) <
         convertToNumber($(b).find('.price').html()))) ? 1 : -1;
   });
-  ascending = ascending ? false : true;
+  if(ascending){
+    ascending = false;
+    $(".sortByPrice").html("Sort by Price: descending");
+  }else{
+    ascending = true;
+    $(".sortByPrice").html("Sort by Price: ascending");
+  }
 
   $('.results').html(sorted);
 });
