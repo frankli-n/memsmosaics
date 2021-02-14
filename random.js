@@ -2,10 +2,10 @@
 
 let counter = 0;
 let imgs = [
-  "../../images_diamonds/cicadas.jpg",
   "../../images_diamonds/blossoms.jpg",
   "../../images_diamonds/hands.jpg",
   "../../images_diamonds/bouquet.jpg",
+  "../../images_diamonds/cicadas.jpg",
   "../../images_diamonds/shattered_smalti.jpg",
   "../../images_diamonds/moth.jpg",
   "../../images_diamonds/littlegem.jpg",
@@ -13,8 +13,7 @@ let imgs = [
   "../../images_diamonds/ghecko.jpg",
   // "../../images_diamonds/golden_flight.jpg",
   // "../../images_diamonds/beetle.jpg",
-  "../../images_diamonds/budgies.png",
-
+  "../../images_diamonds/budgies.png"
 ];
 
 let imgs_phone = [
