@@ -5,20 +5,20 @@ let imgs = [
   "../../images_diamonds/blossoms.jpg",
   "../../images_diamonds/hands.jpg",
   "../../images_diamonds/bouquet.jpg",
-  "../../images_diamonds/cicadas.jpg",
   "../../images_diamonds/shattered_smalti.jpg",
+  "../../images_diamonds/cicadas.jpg",
   "../../images_diamonds/moth.jpg",
   "../../images_diamonds/littlegem.jpg",
   "../../images_diamonds/tupaia45.png",
   "../../images_diamonds/ghecko.jpg",
   "../../images_diamonds/golden_flight.jpg",
-  // "../../images_diamonds/beetle.jpg",
   "../../images_diamonds/budgies.png"
+  // "../../images_diamonds/beetle.jpg",
 ];
 
 let imgs_phone = [
   "../../images_diamonds/phone/turtle.png",
-  "../../images_diamonds/phone/mother_pearl.png",
+  // "../../images_diamonds/phone/mother_pearl.png",
   "../../images_diamonds/phone/mirror.png",
   "../../images_diamonds/phone/hand.png",
   "../../images_diamonds/phone/gumnuts.png",
